@@ -14,7 +14,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
+  background: url('../src/assets/layer1.svg') center 100% no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 #nav {
   padding: 30px;
