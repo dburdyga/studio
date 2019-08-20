@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/lightbulb.svg">
+    <img alt="logo" src="../assets/lightbulb.svg">
     <HelloWorld msg="We are Vue.js & Node.js web development agency based in Wrocław"/>
   </div>
 </template>
