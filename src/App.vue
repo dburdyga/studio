@@ -20,15 +20,15 @@
   color: #ffffff;
   background: url('../src/assets/layer1.svg') center 100% no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 #nav {
   padding: 30px;
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
+    text-decoration: none;
     &.router-link-exact-active {
-      color: #42b983;
+      color: hsla(0,0%,100%,.4);
     }
   }
 }
