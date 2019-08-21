@@ -74,7 +74,6 @@
 <script>
 // @ is an alias to /src
 
-
 export default {
   name: 'home',
 
@@ -108,6 +107,18 @@ export default {
     margin-left: 10px;
     margin-right: 10px;
   }
+  /*.services:after {*/
+  /*  position: absolute;*/
+  /*  bottom: 0;*/
+  /*  left: 0;*/
+  /*  width: 100%;*/
+  /*  height: 80px;*/
+  /*  background-position: 0 100%;*/
+  /*  background-image: url('../../assets/wave.svg');*/
+  /*  background-size: 100% 100%;*/
+  /*  background-repeat: no-repeat;*/
+  /*  content: "";*/
+  /*}*/
   .card__content {
     display: flex;
     flex-wrap: wrap;
