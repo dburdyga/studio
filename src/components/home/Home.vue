@@ -84,7 +84,14 @@ export default {
 <style lang="scss">
   @import '../../styles/variables';
   @import '../../styles/mixins';
-
+  
+  h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  p {
+    color: $grey;
+  }
   .card {
     padding: 48px 16px;
     border-radius: 8px;
