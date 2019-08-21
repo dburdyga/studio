@@ -88,11 +88,11 @@ export default {
   .card {
     padding: 48px 16px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: $white;
     box-shadow: 0 12px 25px 0 rgba(54,53,55,.05);
     flex: 0 0 28%;
     max-width: 28%;
-    color: #000;
+    color: $black;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -113,26 +113,27 @@ export default {
   }
   a {
     margin: 4px;
-    background-color: #f8188e;
+    background-color: $pink;
     box-shadow: 0 2px 12px 0 rgba(248,24,142,.3);
     padding: 7px 24px;
     border-radius: 20px;
     border: 1px solid transparent;
     white-space: nowrap;
-    color: white;
+    color: $white;
     font-size: 16px;
     margin-bottom: 10px;
+    cursor: pointer;
   }
   button {
     padding: 0;
     border: 0;
     background: none;
     cursor: pointer;
-    color: white;
+    color: $white;
     font-size: 16px;
   }
   .article_text {
-    color: rgba(54,53,55,.4);
+    color: $grey;
   }
   .btn--color {
     box-shadow: 0 2px 12px 0 rgba(104,75,198,.3);
@@ -141,31 +142,31 @@ export default {
       #5358cf 66%,#3f64d4 84%,#2b69dd);
     background-image: linear-gradient(-226deg,#b73dc7,#a740c4 8%,#714bbb 38%,
       #5358cf 66%,#3f64d4 84%,#2b69dd);
-    color: #fff;
+    color: $white;
   }
   .link--green {
-    color: #2ec4b6;
+    color: $green;
   }
   .link--blue {
-    color: #1869e5;
+    color: $blue;
   }
   .link--red{
-    color: #e46d75;
+    color: $red;
   }
   .btn--green {
-    background-color: #2ec4b6;
+    background-color: $green;
     box-shadow: 0 2px 12px 0 rgba(46,196,182,.3);
-    border-color: #2ec4b6;
+    border-color: $green;
   }
   .btn--blue {
-    background-color: #1869e5;
+    background-color: $blue;
     box-shadow: 0 2px 12px 0 rgba(24,105,229,.3);
-    border-color: #1869e5;
+    border-color: $blue;
   }
   .btn--red {
-    background-color: #e46d75;
+    background-color: $red;
     box-shadow: 0 2px 12px 0 rgba(228,109,117,.3);
-    border-color: #e46d75;
+    border-color: $red;
   }
   .services {
     max-width: 1200px;
@@ -176,7 +177,6 @@ export default {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
   }
 </style>
