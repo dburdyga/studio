@@ -9,7 +9,7 @@
         <router-link class="navbar__link" to="/services">Services</router-link>
         <router-link class="navbar__link" to="/project">Projects</router-link>
         <router-link class="navbar__link" to="/blog">Blog</router-link>
-        <router-link class="navbar__link" to="/estimate">Estimate project</router-link>
+        <router-link class="navbar__link_button" to="/estimate">Estimate project</router-link>
       </div>
     </div>
     <router-view/>
@@ -45,6 +45,11 @@
       color: $grey;
       text-decoration: underline;
     }
+  }
+  .navbar__link_button {
+    border: 1px solid;
+    background: none;
+    box-shadow: none;
   }
   /*.navbar__link--active {*/
   /*  color: hsla(0,0%,100%,.4);*/
