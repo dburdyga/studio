@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link class="navbar__link" to="/">Home</router-link> |
-      <router-link class="navbar__link" to="/services">Services</router-link> |
-      <router-link class="navbar__link" to="/project">Projects</router-link> |
-      <router-link class="navbar__link" to="/blog">Blog</router-link> |
-      <router-link class="navbar__link" to="/estimate">Estimate project</router-link> |
+      <router-link class="navbar__link" to="/">Home</router-link>
+      <router-link class="navbar__link" to="/services">Services</router-link>
+      <router-link class="navbar__link" to="/project">Projects</router-link>
+      <router-link class="navbar__link" to="/blog">Blog</router-link>
+      <router-link class="navbar__link" to="/estimate">Estimate project</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+  @import './styles/variables';
+  @import './styles/mixins';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

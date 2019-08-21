@@ -80,6 +80,9 @@ export default {
 </script>
 
 <style lang="scss">
+  @import '../styles/variables';
+  @import '../styles/mixins';
+
   .card {
     padding: 48px 16px;
     border-radius: 8px;
