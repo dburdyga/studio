@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <img alt="logo" src="../../assets/lightbulb.svg">
+    <img alt="logo" class="logo" src="../../assets/lightbulb.svg">
     <section>
       <h1>We are Vue.js & Node.js web development agency based in Wrocław</h1>
-      <p>We excel at building modern web applications, providing full-stack
+      <p class="landing__desk">We excel at building modern web applications, providing full-stack
         JavaScript and UI/UX design services for enterprises, companies and startups.</p>
       <a>Estimate project</a>
       <button>or contact us!</button>
@@ -11,7 +11,7 @@
     <section class="services">
       <div class="landing__services">
         <h1>Services</h1>
-        <p>What can we do for you?</p>
+        <p class="landing__services_text">What can we do for you?</p>
       </div>
       <div class="card">
         <article>
@@ -58,7 +58,7 @@
     </section>
     <section class="testimonials">
       <h1>Testimonials</h1>
-      <p>Meet the people who trusted us</p>
+      <p class="landing__services_text">Meet the people who trusted us</p>
     </section>
     <section class="posts">
       <h1>Recent blog posts</h1>
@@ -84,13 +84,12 @@ export default {
 <style lang="scss">
   @import '../../styles/variables';
   @import '../../styles/mixins';
-  
-  h1 {
-    font-size: 32px;
-    line-height: 48px;
+
+  .home {
+    padding-top: 100px;
   }
-  p {
-    color: $grey;
+  section {
+    margin-bottom: 50px;
   }
   .card {
     padding: 48px 16px;
@@ -108,6 +107,9 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .logo {
+    margin-bottom: 48px;
+  }
   article {
     padding-right: 24px;
     padding-left: 24px;
@@ -118,18 +120,14 @@ export default {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  a {
-    margin: 4px;
-    background-color: $pink;
-    box-shadow: 0 2px 12px 0 rgba(248,24,142,.3);
-    padding: 7px 24px;
-    border-radius: 20px;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    color: $white;
-    font-size: 16px;
-    margin-bottom: 10px;
-    cursor: pointer;
+  .landing__services_text {
+    margin-bottom: 40px;
+  }
+  .landing__desk {
+    max-width: 560px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
   }
   button {
     padding: 0;

@@ -2,3 +2,36 @@
 @import '../styles/mixins';
 @import '../styles/variables';
 
+
+html {
+  line-height: 1.15;
+}
+body {
+  margin: 0;
+  color: $white;
+}
+h1 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+p {
+  color: $grey;
+}
+a {
+  margin: 4px;
+  background-color: $pink;
+  box-shadow: 0 2px 12px 0 rgba(248,24,142,.3);
+  padding: 7px 24px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  color: $white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+}

@@ -27,17 +27,10 @@
 }
 #nav {
   padding: 30px;
-  a {
-    color: #ffffff;
-    text-decoration: none;
-    &.router-link-exact-active {
-      color: hsla(0,0%,100%,.4);
-    }
   }
   .navbar__link {
     background: none;
     border: none;
     box-shadow: none;
   }
-}
 </style>
