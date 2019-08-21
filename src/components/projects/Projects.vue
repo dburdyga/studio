@@ -10,7 +10,7 @@
 
 
 <style lang="scss">
-  @import '../styles/variables';
-  @import '../styles/mixins';
+  @import '../../styles/variables';
+  @import '../../styles/mixins';
 
 </style>

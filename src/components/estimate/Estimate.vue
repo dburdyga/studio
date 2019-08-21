@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Services</h1>
+    <h1>Estimate project</h1>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 
 
 <style lang="scss">
-  @import '../styles/variables';
-  @import '../styles/mixins';
+  @import '../../styles/variables';
+  @import '../../styles/mixins';
 
 </style>

@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
-import Services from './views/Services.vue';
-import Project from './views/Projects.vue';
-import Blog from './views/Blog.vue';
-import Estimate from './views/Estimate.vue';
+import Home from './components/home/Home.vue';
+import Services from './components/services/Services.vue';
+import Project from './components/projects/Projects.vue';
+import Blog from './components/blog/Blog.vue';
+import Estimate from './components/estimate/Estimate.vue';
 
 Vue.use(Router);
 

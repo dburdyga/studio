@@ -1,9 +1,10 @@
 <template>
   <div class="home">
-    <img alt="logo" src="../assets/lightbulb.svg">
+    <img alt="logo" src="../../assets/lightbulb.svg">
     <section>
       <h1>We are Vue.js & Node.js web development agency based in Wrocław</h1>
-      <p>We excel at building modern web applications, providing full-stack JavaScript and UI/UX design services for enterprises, companies and startups.</p>
+      <p>We excel at building modern web applications, providing full-stack
+        JavaScript and UI/UX design services for enterprises, companies and startups.</p>
       <a>Estimate project</a>
       <button>or contact us!</button>
     </section>
@@ -19,7 +20,8 @@
           </div>
           <div class="card__content">
             <h3>Vue.js front‑end</h3>
-            <p class="article_text">We are experts at creating beautiful and responsive front‑end applications using Vue.js.</p>
+            <p class="article_text">We are experts at creating beautiful and responsive front‑end
+              applications using Vue.js.</p>
             <a class="btn--green">Read more</a>
             <button class="link--green">or contact us!</button>
           </div>
@@ -32,7 +34,8 @@
           </div>
           <div class="card__content">
             <h3>Node.js back‑end</h3>
-            <p class="article_text">Need a powerful API? We make blazing fast Koa.js applications backed by PostgreSQL databases.</p>
+            <p class="article_text">Need a powerful API? We make blazing fast Koa.js
+              applications backed by PostgreSQL databases.</p>
             <a class="btn--blue">Read more</a>
             <button class="link--blue">or contact us!</button>
           </div>
@@ -45,7 +48,8 @@
           </div>
           <div class="card__content">
             <h3>UI & UX design</h3>
-            <p class="article_text">We love to design responsive and pixel-perfect user interfaces with top-notch user experience.</p>
+            <p class="article_text">We love to design responsive and pixel-perfect user interfaces
+              with top-notch user experience.</p>
             <a class="btn--red">Read more</a>
             <button class="link--red">or contact us!</button>
           </div>
@@ -69,19 +73,17 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+
 
 export default {
   name: 'home',
-  components: {
-    HelloWorld,
-  },
+
 };
 </script>
 
 <style lang="scss">
-  @import '../styles/variables';
-  @import '../styles/mixins';
+  @import '../../styles/variables';
+  @import '../../styles/mixins';
 
   .card {
     padding: 48px 16px;
@@ -135,8 +137,10 @@ export default {
   .btn--color {
     box-shadow: 0 2px 12px 0 rgba(104,75,198,.3);
     border: 0;
-    background-image: -webkit-linear-gradient(316deg,#b73dc7,#a740c4 8%,#714bbb 38%,#5358cf 66%,#3f64d4 84%,#2b69dd);
-    background-image: linear-gradient(-226deg,#b73dc7,#a740c4 8%,#714bbb 38%,#5358cf 66%,#3f64d4 84%,#2b69dd);
+    background-image: -webkit-linear-gradient(316deg,#b73dc7,#a740c4 8%,#714bbb 38%,
+      #5358cf 66%,#3f64d4 84%,#2b69dd);
+    background-image: linear-gradient(-226deg,#b73dc7,#a740c4 8%,#714bbb 38%,
+      #5358cf 66%,#3f64d4 84%,#2b69dd);
     color: #fff;
   }
   .link--green {
@@ -176,4 +180,3 @@ export default {
     flex-flow: row wrap;
   }
 </style>
-
