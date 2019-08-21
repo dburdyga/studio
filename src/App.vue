@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link class="navbar__link" to="/">Home</router-link>
-      <router-link class="navbar__link" to="/services">Services</router-link>
-      <router-link class="navbar__link" to="/project">Projects</router-link>
-      <router-link class="navbar__link" to="/blog">Blog</router-link>
-      <router-link class="navbar__link" to="/estimate">Estimate project</router-link>
+      <div>
+        <img class="main__logo" src="../src/assets/main_logo.svg">
+      </div>
+      <div>
+        <router-link class="navbar__link" to="/">Home</router-link>
+        <router-link class="navbar__link" to="/services">Services</router-link>
+        <router-link class="navbar__link" to="/project">Projects</router-link>
+        <router-link class="navbar__link" to="/blog">Blog</router-link>
+        <router-link class="navbar__link" to="/estimate">Estimate project</router-link>
+      </div>
     </div>
     <router-view/>
   </div>
@@ -27,6 +32,10 @@
 }
 #nav {
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
   }
   .navbar__link {
     background: none;
