@@ -16,11 +16,11 @@
   @import './styles/mixins';
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff;
+  color: $white;
   background: url('../src/assets/layer1.svg') center 100% no-repeat;
   background-size: cover;
   height: 100%;
