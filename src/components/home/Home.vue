@@ -16,7 +16,7 @@
       <div class="card">
         <article>
           <div>
-            <img src="">
+            <img class="services__icon" src="../../assets/desktop.svg">
           </div>
           <div class="card__content">
             <h3>Vue.js front‑end</h3>
@@ -30,7 +30,7 @@
       <div class="card">
         <article>
           <div>
-            <img src="">
+            <img class="services__icon" src="../../assets/server.svg">
           </div>
           <div class="card__content">
             <h3>Node.js back‑end</h3>
@@ -44,7 +44,7 @@
       <div class="card">
         <article>
           <div>
-            <img src="">
+            <img class="services__icon" src="../../assets/grid.svg">
           </div>
           <div class="card__content">
             <h3>UI & UX design</h3>
@@ -90,6 +90,12 @@ export default {
   }
   section {
     margin-bottom: 50px;
+  }
+  .services__icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
   }
   .card {
     padding: 48px 16px;
@@ -183,5 +189,6 @@ export default {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     flex-flow: row wrap;
+    justify-content: center;
   }
 </style>

@@ -32,5 +32,13 @@
     background: none;
     border: none;
     box-shadow: none;
+    &:hover {
+      color: $grey;
+      text-decoration: underline;
+    }
   }
+  /*.navbar__link--active {*/
+  /*  color: hsla(0,0%,100%,.4);*/
+  /*  cursor: default;*/
+  /*}*/
 </style>
